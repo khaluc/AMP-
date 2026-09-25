@@ -1,0 +1,48 @@
+{
+  "nominal_coverage": 0.9,
+  "q_two_sided": 0.989002486056329,
+  "q_one_sided": 0.8698213958583895,
+  "by_split": {
+    "train": {
+      "n": 1310,
+      "mae_log10": 0.19184782839414663,
+      "mean_signed_residual_log10": 0.006662622336418594,
+      "covered_two_sided": 1304,
+      "coverage_two_sided": 0.9954198473282443,
+      "coverage_one_sided": 0.9984732824427481
+    },
+    "validation": {
+      "n": 215,
+      "mae_log10": 0.19042864169699464,
+      "mean_signed_residual_log10": -0.010147544584158176,
+      "covered_two_sided": 214,
+      "coverage_two_sided": 0.9953488372093023,
+      "coverage_one_sided": 1.0
+    },
+    "calibration": {
+      "n": 377,
+      "mae_log10": 0.5216022443383901,
+      "mean_signed_residual_log10": 0.09504999029688173,
+      "covered_two_sided": 341,
+      "coverage_two_sided": 0.9045092838196287,
+      "coverage_one_sided": 0.9045092838196287
+    },
+    "test": {
+      "n": 358,
+      "mae_log10": 0.6167254798327512,
+      "mean_signed_residual_log10": 0.04500084125696626,
+      "covered_two_sided": 276,
+      "coverage_two_sided": 0.770949720670391,
+      "coverage_one_sided": 0.8435754189944135
+    }
+  },
+  "statistical_target_met": false,
+  "parameters_retuned": false,
+  "new_independent_test_required_for_next_model": true,
+  "refit_development_splits": [
+    "train",
+    "validation"
+  ],
+  "validation_residuals_are_in_sample_after_refit": true,
+  "scope": "Historical aggregated E. coli MIC; no per-candidate, selected-portfolio, or experimental hit-rate guarantee."
+}

@@ -1,0 +1,55 @@
+{
+  "library_count": 50000,
+  "unique": 50000,
+  "top_count": 100,
+  "top_max_reference_similarity": 0.7906976744186046,
+  "exact_known_overlap": 0,
+  "library_sha256": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
+  "top_sha256": "c38400c4d492ba0115a94183c28b9101c911f77ab8928ccbb182e0da1a9cd729",
+  "recomputed_model_predictions": 50000,
+  "portfolio_recomputed_from_features": true,
+  "source_fingerprints_checked": {
+    "phase2/core.py": "620c5b08b27f61f4c7b3a5e634dc2491ba9553b2c1b8788c329578101f8a9677",
+    "phase2/download.py": "1528f5539b25d250aa05a4245f0ea4455489f0e82eabeba62b2f5843b592f9d5",
+    "phase2/finish_library.py": "8bbc41608972b6e651ef2a0d86805631a213ed62f161900e0998bf9bdc275d92",
+    "phase2/fit.py": "83dfca832e88cb662e44aa82c2566d70b7dc4cb602542c8c05d22d3015e7526b",
+    "phase2/gflownet.py": "a3e2aa42d460eb7b56631e45ca67f95029099d0ca2bf7a9bc4a8adc980db950d",
+    "phase2/prepare.py": "b45d3722eefcce3a4953a6598c0aacdd905bfece796ffd7d28d42b784ca9a623",
+    "phase2/report.py": "d5721b183e43212a2ec974090916339f0c08153f341f771e4741bbb0a51aa3da",
+    "phase2/score.py": "52a5bdef222ed0e2a18566d8a5882a004ee2389d9d64751d9a2c1237f1304ce7",
+    "phase2/test_statistics.py": "94c8dffc0e745a041f0495b5941d76ad36865a96dd5a3e4cc480f3c4df2c795f",
+    "phase2/verify.py": "4152c7b1e2a4eb4b5db1c76132595c8200c010a8024312c935fbbb02d51f213d",
+    "phase1/uv.lock": "e75a123e4d52a1e2c0de82454fb8a033b8d3745f3360f60cb44463d297c377df",
+    "phase1/networks.py": "ea0a155f2ad9a873794c05d68a64c0701af7123dc482dd61f7876346897de5ac",
+    "models/torch/hub/checkpoints/esm2_t6_8M_UR50D.pt": "46f002a9870c9bdecd0ea887acb1f9a38a6b561e8f8bf8a6990b679b9d31b928",
+    "phase2/artifacts/dataset.csv": "bb98b92bf1d9b981076cd55de6dc9839964326d05677158295a38f7c73282aac",
+    "phase2/artifacts/mic_regressor.joblib": "d5bf7ddc73174f3c99f32e5f737287942eec83c0a22e4147f0c603bc4822e503",
+    "phase1/artifacts/multiobjective/gflownet.pt": "8a6a6a51c5b6eaff5e776f5f7fa22fb28028247995bb8553bc0d755449d74fd4",
+    "phase1/artifacts/final/library.fasta": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
+    "phase2/artifacts/source/provenance_code/src/embedding_model.py": "7509789635b9cf752854f8c33c0323dad9561dcd21846a2a9241a3863572275e",
+    "phase2/artifacts/source/provenance_code/src/load_data.py": "d8ff3e3a7c21edb3de1e2a72694e5fb8aad5ceef20dfb0d671913369883289dc",
+    "phase2/artifacts/source/provenance_code/src/make_dataset.py": "c756ed6de71eae4d8b3edfdf442542ee8a700225aa86736a513f8a7f50f9bfbe"
+  },
+  "checkpoint_pool_replay": {
+    "diffusion": {
+      "count": 17824,
+      "all_sequences_in_order_match": true,
+      "sha256": "cf3b7c2d88ffaccaf20f48c6fd7b00d7b07158847cfd8a53c1de9004ae84068e"
+    },
+    "lm": {
+      "count": 17536,
+      "all_sequences_in_order_match": true,
+      "sha256": "729ffa7f53c3575436acd96558a823e9e450125acedd5264296c510fa7a71a23"
+    },
+    "gflownet": {
+      "count": 17536,
+      "all_sequences_in_order_match": true,
+      "sha256": "1267339880469585554c95c0274f2c0dace85592b5312477c15e31d8f7e762af"
+    }
+  },
+  "cross_hardware_replay": false,
+  "statistical_target_met": false,
+  "biological_activity_validated": false,
+  "official_aggregation_score": null,
+  "mechanistic_simulations_completed": false
+}

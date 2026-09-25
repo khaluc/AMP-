@@ -1,6 +1,6 @@
 {
-  "candidate_file_count": 327,
-  "total_bytes": 197753470,
+  "candidate_file_count": 340,
+  "total_bytes": 209148855,
   "findings": [],
   "largest_files": [
     {
@@ -20,6 +20,10 @@
       "bytes": 11539154
     },
     {
+      "path": "starter-kits/hydramp/data/training/Uniprot_0_25_train.csv",
+      "bytes": 9140400
+    },
+    {
       "path": "phase1/artifacts/data/uniprot_train.fasta",
       "bytes": 6844256
     },
@@ -30,10 +34,6 @@
     {
       "path": "protein_lm/artifacts/adapter/tokenizer.json",
       "bytes": 3272244
-    },
-    {
-      "path": "phase2/artifacts/dataset_features.npy",
-      "bytes": 2983328
     }
   ],
   "frozen_library_sha256": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
