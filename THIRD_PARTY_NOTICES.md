@@ -10,10 +10,13 @@ The root MIT grant applies to project-owned contributions. Preserve the followin
 | ESM code and pretrained ESM2 checkpoint | MIT, Meta Platforms, Inc. and affiliates | `LICENSES/ESM-MIT.txt` |
 | ProtGPT2 base model | Model-card metadata says Apache-2.0; upstream also supplies an MIT LICENSE file | Both `LICENSES/Apache-2.0.txt` and `models/protgpt2/LICENSE`; original `models/protgpt2/README.md` retained |
 | Locally trained ProtGPT2 LoRA adapter | Apache-2.0 for the distributed adaptation | `LICENSES/Apache-2.0.txt`; local training procedure and changes in `METHODS.md` |
+| HydrAMP published training dataset | MIT at Zenodo DOI 10.5281/zenodo.7420278; four exact inputs verified | `docs/hydramp-dataset-license.json`; attribution below |
 | Curated peptide/UniProt/DBAASP training records | Source-specific attribution and terms | `DATA_AND_LICENSES.md`, pinned data README files, source manifest and per-sequence provenance |
 
 ProtGPT2 is by Noelia Ferruz and collaborators. The local adaptation adds LoRA rank-16 updates in the attention/projection modules and AMP/NONAMP conditioning using existing tokenizer tokens; it does not replace or claim authorship of the base model. The model card's Apache designation and its MIT file are both retained rather than silently resolving the discrepancy as MIT-only.
 
 AMP-Diffusion, ESM2, ProtGPT2 and the datasets remain the work of their original authors. This repository is an independent exploratory submission and is not endorsed by those authors or the competition organizers.
 
-The three unlicensed GRAMPA provenance scripts and the full mixed-source raw CSV are not redistributed here. Their public upstream URLs and cryptographic hashes are disclosed, and the audit can retrieve the original scripts directly. See `DATA_AND_LICENSES.md` for the remaining mixed-data licensing limitation.
+The three unlicensed GRAMPA provenance scripts and the full mixed-source raw CSV are not redistributed here. Their public upstream URLs and cryptographic hashes are disclosed, and the audit can retrieve the original scripts directly. See `DATA_AND_LICENSES.md` for the source-specific distribution review.
+
+HydrAMP dataset attribution: Paulina Szymczak, Marcin Możejko, Tomasz Grzegorzek, Radosław Jurczak, Marta Bauer, Damian Neubauer, Karol Sikora, Michał Michalski, Jacek Sroka, Piotr Setny, Wojciech Kamysz and Ewa Szczurek (2022), *Data for HydrAMP - a deep generative model for antimicrobial peptide discovery*, v1.2.0, DOI 10.5281/zenodo.7420278, published under MIT. Local changes consist of deterministic filtering, sequence exclusions and train/validation partitioning documented in METHODS.md. UniProt, APD, dbAMP, AMP Scanner, DRAMP and DBAASP retain their acknowledgements.

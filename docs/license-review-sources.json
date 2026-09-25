@@ -25,7 +25,13 @@
     {
       "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
       "included_file": "LICENSES/Apache-2.0.txt"
+    },
+    {
+      "url": "https://zenodo.org/records/7420278",
+      "api": "https://zenodo.org/api/records/7420278",
+      "finding": "Published dataset license id mit-license; four local source-file hashes exactly match data.zip",
+      "evidence": "docs/hydramp-dataset-license.json"
     }
   ],
-  "limitation": "No blanket relicensing permission established for every historical source in mixed AMP datasets."
+  "limitation": "Review covers exact included datasets and upstream licenses; it does not relicense the excluded full mixed-source GRAMPA collection or certify organizer acceptance."
 }

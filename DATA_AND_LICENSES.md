@@ -10,7 +10,7 @@ Locally trained baseline Transformer/GRU weights, the multiobjective GFlowNet an
 
 ## Exact training and exclusion data
 
-No proprietary or private dataset was introduced by this project. Public source revisions and SHA-256 values are listed in [assets/training_sources.json](assets/training_sources.json); the actual prepared splits used by the local models are committed:
+No proprietary or private dataset was introduced by this project. All six immediate upstream training/exclusion input files and the prepared local splits are included. Public source revisions, distribution bases and SHA-256 values are listed in [assets/training_sources.json](assets/training_sources.json); the actual prepared splits used by the local models are committed:
 
 | Use | Exact local records | Source and handling |
 |---|---|---|
@@ -42,9 +42,11 @@ The pinned [GRAMPA repository](https://github.com/zswitten/Antimicrobial-Peptide
 - **DRAMP**: [database attribution/license information](https://dramp.cpu-bioinfor.org/). Credit the DRAMP database and the published AMP-Diffusion/HydrAMP datasets.
 - **APD**: [official FAQ](https://aps.unmc.edu/faq) permits use of downloads with acknowledgement. Credit Wang, Li and Wang, APD3, Nucleic Acids Research 2016, and the APD website.
 - **AMP-Diffusion**: Torres et al., [Cell Biomaterials 2025](https://doi.org/10.1016/j.celbio.2025.100183). The official starter kit identifies its published training compilation as CC BY 4.0; preserve that attribution and the database acknowledgements.
-- **HydrAMP data / AMP Scanner / dbAMP inputs**: Szymczak et al., [Nature Communications 2023](https://doi.org/10.1038/s41467-023-36994-z), the [pinned HydrAMP starter-kit data disclosure](starter-kits/hydramp/data/README.md), and its public upstream sources. The original aggregate source files are linked rather than copied into this repository. Prepared local splits are identified explicitly as adaptations.
+- **HydrAMP data / AMP Scanner / dbAMP inputs**: Szymczak et al., [Nature Communications 2023](https://doi.org/10.1038/s41467-023-36994-z), the [pinned HydrAMP starter-kit data disclosure](starter-kits/hydramp/data/README.md), and its public upstream sources. Four exact source files were independently matched byte for byte to the MIT-licensed HydrAMP data archive on Zenodo, DOI [10.5281/zenodo.7420278](https://zenodo.org/records/7420278). They are included with their attribution; prepared local splits are identified as adaptations. The separate DBAASP exclusion FASTA is included under the database redistribution terms.
 
-The starter-kit MIT software licenses do not by themselves prove unrestricted relicensing of every historical database entry. In particular, the aggregate AMP-positive/exclusion sets include records with several upstream origins. This submission discloses those origins and their notices rather than claiming all training data is MIT. **A blanket permissive license for every historical upstream database record is not established by this review.** Organizer acceptance of the mixed-source disclosures remains an eligibility question; publication and computational checks alone do not certify co-authorship eligibility.
+The distribution review is based on the published licenses of the exact data releases, not merely the starter-kit software licenses. [The independent archive comparison](docs/hydramp-dataset-license.json) confirms the HydrAMP dataset publisher's MIT designation and SHA-256 identity for `unlabelled_positive.csv`, `veltri_positive.csv`, `Uniprot_0_25_train.csv` and `mic_data.csv`. The additional `dbaasp_clean.fasta` is covered by the current DBAASP attribution terms. AMP-Diffusion's official data disclosure identifies its training compilation as CC BY 4.0. The original database acknowledgements are retained as well.
+
+This review establishes and records a distribution basis for each immediate input included here; it does not purport to relicense every source database in the full GRAMPA collection. That full unlicensed mixed-source collection and its upstream code remain excluded. Co-authorship and submission acceptance remain decisions for the competition organizers.
 
 ## Downloaded and included weights
 

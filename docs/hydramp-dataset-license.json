@@ -1,0 +1,43 @@
+{
+  "record": "https://zenodo.org/records/7420278",
+  "doi": "10.5281/zenodo.7420278",
+  "license": {
+    "id": "mit-license"
+  },
+  "archive_checksum": "md5:5168e9260c27df1d50a76eb5ecab7aef",
+  "source_comparison": [
+    {
+      "project_source": "starter-kits/hydramp/data/training/unlabelled_positive.csv",
+      "sha256": "69e45c5e162dc0ee37489356cc6c5c759c35da9c47671b65dc00aebf6c51c088",
+      "identical_archive_members": [
+        "data/unlabelled_positive.csv"
+      ]
+    },
+    {
+      "project_source": "starter-kits/hydramp/data/training/veltri_positive.csv",
+      "sha256": "fdaaad5714ffe48537506c30eb0d5a5a94767182433f52dcee311b2a11c7ef71",
+      "identical_archive_members": [
+        "data/veltri_positive.csv"
+      ]
+    },
+    {
+      "project_source": "starter-kits/hydramp/data/training/Uniprot_0_25_train.csv",
+      "sha256": "1af551c81bb7252a88abf489083a226aba1d02b6049436171dffee672bd11c32",
+      "identical_archive_members": [
+        "data/Uniprot_0_25_train.csv"
+      ]
+    },
+    {
+      "project_source": "starter-kits/hydramp/data/training/mic_data.csv",
+      "sha256": "58e042011b340419daa0492b32eee4bc2cdc381d26ebcba6e548b11ce0f33d6c",
+      "identical_archive_members": [
+        "data/mic_data.csv"
+      ]
+    },
+    {
+      "project_source": "starter-kits/hydramp/data/training/dbaasp/dbaasp_clean.fasta",
+      "sha256": "cee2b5fd9445ce51cee66d1f2add7d7bc225a1b0b483d2f8af0cdfdb7e04449d",
+      "identical_archive_members": []
+    }
+  ]
+}
