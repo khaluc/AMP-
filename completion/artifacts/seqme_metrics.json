@@ -1,0 +1,129 @@
+{
+  "seqme_version": "0.5.1",
+  "groups": {
+    "library": {
+      "Count": {
+        "value": 50000.0,
+        "deviation": null
+      },
+      "Uniqueness": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Novelty": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Length": {
+        "value": 21.51804,
+        "deviation": 10.577789682083871
+      },
+      "Diversity": {
+        "value": 0.8374158372492884,
+        "sample_n": 2000,
+        "neighbors_k": 10,
+        "seed": 42
+      }
+    },
+    "top100": {
+      "Count": {
+        "value": 100.0,
+        "deviation": null
+      },
+      "Uniqueness": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Novelty": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Length": {
+        "value": 24.69,
+        "deviation": 7.5837919275254375
+      },
+      "Diversity": {
+        "value": 0.506319208999223,
+        "sample_n": 100,
+        "neighbors_k": null,
+        "seed": 42
+      }
+    },
+    "diffusion_ddim100": {
+      "Count": {
+        "value": 16667.0,
+        "deviation": null
+      },
+      "Uniqueness": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Novelty": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Length": {
+        "value": 25.519589608207834,
+        "deviation": 9.461293300503733
+      },
+      "Diversity": {
+        "value": 0.7823695618588292,
+        "sample_n": 2000,
+        "neighbors_k": 10,
+        "seed": 42
+      }
+    },
+    "gflownet_multiobjective": {
+      "Count": {
+        "value": 16666.0,
+        "deviation": null
+      },
+      "Uniqueness": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Novelty": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Length": {
+        "value": 22.328453138125525,
+        "deviation": 11.809043186954382
+      },
+      "Diversity": {
+        "value": 0.8484252868479387,
+        "sample_n": 2000,
+        "neighbors_k": 10,
+        "seed": 42
+      }
+    },
+    "protgpt2_lora": {
+      "Count": {
+        "value": 16667.0,
+        "deviation": null
+      },
+      "Uniqueness": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Novelty": {
+        "value": 1.0,
+        "deviation": null
+      },
+      "Length": {
+        "value": 16.70612587748245,
+        "deviation": 8.177856609534066
+      },
+      "Diversity": {
+        "value": 0.8131800153467766,
+        "sample_n": 2000,
+        "neighbors_k": 10,
+        "seed": 42
+      }
+    }
+  },
+  "official_aggregation_score": null,
+  "scope": "Local diagnostics. Count/uniqueness/exact novelty/length use full groups; diversity uses a documented fixed subset.",
+  "official_protocol_status": "No finalized scoring configuration in the inspected starter kits; do not infer it from this subset.",
+  "diversity_distance": "seqme normalized Levenshtein edit distance; differs from organizer Indel novelty ratio"
+}

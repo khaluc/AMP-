@@ -1,0 +1,3 @@
+Library: all 50,000 sequences reconstructed and verified
+Predictions and calibration: recomputed with the frozen model
+Portfolio: all 100 members, order, bounds and reference similarity verified

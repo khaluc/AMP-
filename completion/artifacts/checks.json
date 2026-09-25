@@ -1,0 +1,37 @@
+[
+  {
+    "check": "completion",
+    "exit_code": 0,
+    "log": "check-completion.log"
+  },
+  {
+    "check": "phase1",
+    "exit_code": 0,
+    "log": "check-phase1.log"
+  },
+  {
+    "check": "phase2",
+    "exit_code": 0,
+    "log": "check-phase2.log"
+  },
+  {
+    "check": "phase3",
+    "exit_code": 0,
+    "log": "check-phase3.log"
+  },
+  {
+    "check": "protein_lm",
+    "exit_code": 0,
+    "log": "check-protein_lm.log"
+  },
+  {
+    "check": "audit",
+    "exit_code": 0,
+    "log": "check-audit.log"
+  },
+  {
+    "check": "seqme",
+    "exit_code": 0,
+    "log": "check-seqme.log"
+  }
+]

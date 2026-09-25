@@ -1,0 +1,24 @@
+{
+  "selected_model": "random_forest",
+  "validation_mae": {
+    "ridge10": 0.5734898976009667,
+    "ridge100": 0.554099139729322,
+    "extra_trees": 0.5136393907892352,
+    "random_forest": 0.5123162174257052
+  },
+  "alpha": 0.1,
+  "calibration_n": 377,
+  "q_two_sided": 0.9890024860563289,
+  "q_one_sided": 0.8698213958583895,
+  "test_n": 358,
+  "test_mae_log10": 0.6167254798327511,
+  "test_rmse_log10": 0.7476943197561013,
+  "test_spearman": 0.607825985875869,
+  "test_empirical_two_sided_coverage": 0.770949720670391,
+  "test_empirical_one_sided_coverage": 0.8435754189944135,
+  "test_median_baseline_mae": 0.7872995909662688,
+  "dataset_sha256": "bb98b92bf1d9b981076cd55de6dc9839964326d05677158295a38f7c73282aac",
+  "model_sha256": "d5bf7ddc73174f3c99f32e5f737287942eec83c0a22e4147f0c603bc4822e503",
+  "features": "ESM2-8M layer6 residue mean (320) + 10 descriptors (length, net-charge/residue proxy, KD mean, alpha-helical hydrophobic moment, hydrophobic/aromatic/C/P/G fractions, consecutive repeats)",
+  "scope": "Exploratory marginal interval for aggregated historical E. coli endpoint. No selected-candidate or hit-rate guarantee."
+}

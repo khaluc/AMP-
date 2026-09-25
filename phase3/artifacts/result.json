@@ -1,0 +1,78 @@
+{
+  "config": {
+    "seed": 42,
+    "clusters": 100,
+    "eligible_upper_uM": 16,
+    "reference_similarity_max": 0.8,
+    "facility_weight": 0.8,
+    "quality_weight": 0.2,
+    "rbf_bandwidth": 0.5003820061683655,
+    "quota_per_generator": null
+  },
+  "eligible_count": 167,
+  "eligible_hard_clusters": 14,
+  "empty_of_eligible_clusters": 86,
+  "baseline": {
+    "n": 100,
+    "generators": {
+      "protgpt2_lora": 86,
+      "diffusion_ddim100": 8,
+      "gflownet_multiobjective": 6
+    },
+    "hard_clusters": 11,
+    "facility_coverage": 0.2686263987286131,
+    "objective": 0.35041580041277803,
+    "mean_pairwise_indel_distance": 0.37684382497728813,
+    "pairs_above_80pct_similarity": 1595,
+    "median_upper_uM": 12.62484070315668,
+    "max_upper_uM": 14.155873276331654,
+    "max_reference_similarity": 0.7906976744186046,
+    "random25_distinct_clusters_mean": 4.71,
+    "random25_distinct_clusters_p05_p50_p95": [
+      3.0,
+      5.0,
+      7.0
+    ]
+  },
+  "portfolio": {
+    "n": 100,
+    "generators": {
+      "protgpt2_lora": 79,
+      "diffusion_ddim100": 12,
+      "gflownet_multiobjective": 9
+    },
+    "hard_clusters": 12,
+    "facility_coverage": 0.29546218074360864,
+    "objective": 0.37055958069507305,
+    "mean_pairwise_indel_distance": 0.43991722067481975,
+    "pairs_above_80pct_similarity": 1409,
+    "median_upper_uM": 12.62484070315668,
+    "max_upper_uM": 15.977181155001489,
+    "max_reference_similarity": 0.7906976744186046,
+    "random25_distinct_clusters_mean": 5.8555,
+    "random25_distinct_clusters_p05_p50_p95": [
+      4.0,
+      6.0,
+      8.0
+    ]
+  },
+  "shared_with_baseline": 89,
+  "checks": {
+    "unique_100": true,
+    "subset_library": true,
+    "thresholds_preserved": true,
+    "same_inputs_selection_replay": true,
+    "sequence_valid": true,
+    "scalar_reference_similarity": true
+  },
+  "cluster_representatives": 12,
+  "seconds": 13.762584209442139,
+  "limitations": [
+    "Phase2 empirical interval coverage is 77.1%, not validated at 90%.",
+    "Clusters are geometric groups, not mechanisms of action.",
+    "Fixed threshold may leave many clusters without an eligible candidate.",
+    "Facility-location guarantee concerns the specified surrogate objective only, not potency, MoA or hit-rate.",
+    "Random25 simulation measures geometric cluster coverage only.",
+    "Optional MARTINI simulations not performed; no structures/topologies or mechanistic evidence available."
+  ]
+}

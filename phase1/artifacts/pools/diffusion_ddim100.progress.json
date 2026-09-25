@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "model": "diffusion",
+    "seed": 42,
+    "batch_size": 512,
+    "device": "cuda",
+    "checkpoint_sha256": "6a3f347df7c02ff6008ac3d2d4826daeadf7418cb6862a6599b4f710e1d7f8aa",
+    "reference_sha256": "1e751f0710398f9ffe1ac784d09bb27da810f67031d1844ee64cef148b6c8e95",
+    "sampler": "ddim_eta0_100_steps",
+    "code_sha256": "6e74edcfc7c691a0295138137ebbe0b8b62dca68ac1b25b42e40eae22e379093",
+    "networks_sha256": "ea0a155f2ad9a873794c05d68a64c0701af7123dc482dd61f7876346897de5ac",
+    "data_report_sha256": "ee9bbd16ae6b3b20d103b9241443c353d88181efb0a4419199fa29cfcda8e885",
+    "torch_version": "2.5.1+cu121",
+    "ddim_code_sha256": "21095d37bbc007c083dcc80d40ef5e4b89f01e9ddb65ecd9b2ef122792ee3be4"
+  },
+  "accepted": 17824,
+  "requested_minimum": 17500,
+  "attempts": 17920,
+  "next_round": 35,
+  "fasta_sha256": "cf3b7c2d88ffaccaf20f48c6fd7b00d7b07158847cfd8a53c1de9004ae84068e",
+  "elapsed_this_run_seconds": 296.10679602622986
+}

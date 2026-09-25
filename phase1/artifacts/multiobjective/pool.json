@@ -1,0 +1,12 @@
+{
+  "config": {
+    "seed": 8042,
+    "batch_size": 128,
+    "checkpoint_sha256": "8a6a6a51c5b6eaff5e776f5f7fa22fb28028247995bb8553bc0d755449d74fd4",
+    "code_sha256": "a3e2aa42d460eb7b56631e45ca67f95029099d0ca2bf7a9bc4a8adc980db950d",
+    "dataset_sha256": "bb98b92bf1d9b981076cd55de6dc9839964326d05677158295a38f7c73282aac"
+  },
+  "accepted": 17536,
+  "next_round": 137,
+  "sha256": "1267339880469585554c95c0274f2c0dace85592b5312477c15e31d8f7e762af"
+}

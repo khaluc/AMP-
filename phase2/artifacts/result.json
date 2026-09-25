@@ -1,0 +1,131 @@
+{
+  "phase1": "operational_ensemble_completed",
+  "phase2": "exploratory_pipeline_completed_statistical_target_failed",
+  "data": {
+    "raw_rows": 51345,
+    "unmodified_ecoli_dbaasp_rows": 3044,
+    "unique_sequences": 2260,
+    "similarity_components": 1173,
+    "largest_component": 42,
+    "split_counts": {
+      "train": 1310,
+      "calibration": 377,
+      "test": 358,
+      "validation": 215
+    },
+    "diffusion_training_exact_overlap_by_split": {
+      "calibration": 368,
+      "test": 325,
+      "train": 1276,
+      "validation": 214
+    },
+    "local_generator_data_exact_overlap_by_split": {
+      "calibration": 0,
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    },
+    "endpoint": "Median log10(MIC/uM) per sequence across available E. coli assays/strains, DBAASP subset of 2018 GRAMPA snapshot",
+    "label_transform": "Already log10 in source; verified src/load_data.py convert_result_to_rows. No second log transform.",
+    "limitations": [
+      "Not strain/lab-specific; median endpoint is not an individual assay MIC.",
+      "Original censoring/assay protocol metadata unavailable; no recovery or imputation of censored values.",
+      "Homology-group splits are not IID sequence samples; report empirical coverage, not an unconditional exact guarantee.",
+      "Generator pretraining overlap and selection shift prevent top-100 hit-rate guarantees."
+    ],
+    "source_sha256": "9e33122afb3bdd169e8bed620b1040bf1601d60cf25b6c8c8d9870bf37522b6f",
+    "dataset_sha256": "bb98b92bf1d9b981076cd55de6dc9839964326d05677158295a38f7c73282aac"
+  },
+  "calibration": {
+    "selected_model": "random_forest",
+    "validation_mae": {
+      "ridge10": 0.5734898976009667,
+      "ridge100": 0.554099139729322,
+      "extra_trees": 0.5136393907892352,
+      "random_forest": 0.5123162174257052
+    },
+    "alpha": 0.1,
+    "calibration_n": 377,
+    "q_two_sided": 0.9890024860563289,
+    "q_one_sided": 0.8698213958583895,
+    "test_n": 358,
+    "test_mae_log10": 0.6167254798327511,
+    "test_rmse_log10": 0.7476943197561013,
+    "test_spearman": 0.607825985875869,
+    "test_empirical_two_sided_coverage": 0.770949720670391,
+    "test_empirical_one_sided_coverage": 0.8435754189944135,
+    "test_median_baseline_mae": 0.7872995909662688,
+    "dataset_sha256": "bb98b92bf1d9b981076cd55de6dc9839964326d05677158295a38f7c73282aac",
+    "model_sha256": "d5bf7ddc73174f3c99f32e5f737287942eec83c0a22e4147f0c603bc4822e503",
+    "features": "ESM2-8M layer6 residue mean (320) + 10 descriptors (length, net-charge/residue proxy, KD mean, alpha-helical hydrophobic moment, hydrophobic/aromatic/C/P/G fractions, consecutive repeats)",
+    "scope": "Exploratory marginal interval for aggregated historical E. coli endpoint. No selected-candidate or hit-rate guarantee."
+  },
+  "selection": {
+    "library_sha256": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
+    "model_sha256": "d5bf7ddc73174f3c99f32e5f737287942eec83c0a22e4147f0c603bc4822e503",
+    "library_count": 50000,
+    "reference_valid_count": 46881,
+    "eligible_at_16uM": 167,
+    "top100_status": "exploratory_candidates_written",
+    "sensitivity_counts_not_retuned": {
+      "8": 0,
+      "16": 167,
+      "32": 3384,
+      "64": 14522
+    },
+    "by_generator": {
+      "diffusion_ddim100": {
+        "count": 16667,
+        "median_pred_log10": 0.8967163774711548,
+        "median_similarity": 0.5853658536585367
+      },
+      "gflownet_multiobjective": {
+        "count": 16666,
+        "median_pred_log10": 1.2156630002622917,
+        "median_similarity": 0.5769230769230769
+      },
+      "protgpt2_lora": {
+        "count": 16667,
+        "median_pred_log10": 0.9388638937255528,
+        "median_similarity": 0.6896551724137931
+      }
+    },
+    "counterexample_probability_at_least_22_of_25_if_independent_p90": 0.7635913575531725,
+    "claim": "Exploratory historical-endpoint bounds only. Not calibrated for adaptively generated, selected candidates. No 22/25 guarantee.",
+    "peak_reserved_mib": 568.0
+  },
+  "checks": {
+    "split_group_isolation": true,
+    "dataset_unique": true,
+    "finite_sample_quantile_recomputed": true,
+    "model_reload_predictions_match": true,
+    "library_structural_and_exact_overlap_checks": true,
+    "gflownet_same_seed_and_resume_prefix": true,
+    "gflownet_replay_sequences": 256,
+    "reference_similarity_scalar_crosscheck": 10,
+    "actual_test_coverage": 0.770949720670391,
+    "statistical_target_met": false,
+    "scope": "Reproducibility checks are prefixes on this hardware, not a complete 50000 replay.",
+    "top100_membership_uniqueness_thresholds_order_fasta_match": true
+  },
+  "diversity": {
+    "diffusion_ddim100": {
+      "sample_n": 500,
+      "mean_pairwise_indel_distance": 0.6715554663925002,
+      "mean_length": 25.519589608207834,
+      "novelty_pass_fraction": 0.9724005519889602
+    },
+    "gflownet_multiobjective": {
+      "sample_n": 500,
+      "mean_pairwise_indel_distance": 0.7370803130917508,
+      "mean_length": 22.328453138125525,
+      "novelty_pass_fraction": 0.9876995079803192
+    },
+    "protgpt2_lora": {
+      "sample_n": 500,
+      "mean_pairwise_indel_distance": 0.7178959419765604,
+      "mean_length": 16.70612587748245,
+      "novelty_pass_fraction": 0.8527629447411051
+    }
+  }
+}

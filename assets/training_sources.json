@@ -1,0 +1,63 @@
+{
+  "sources": [
+    {
+      "path": "starter-kits/ampdiffusion/data/training/training.fasta",
+      "sha256": "7bb01ab9a6f48683f20f63e7f7cf431f68019d60649770b24971c863792391bf",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/ampdiffusion-starter-kit/1a862af9078e6b55c87d1fa576f3da81851ba94b/data/training/training.fasta",
+      "bytes": 884864,
+      "role": "training input or exact-sequence exclusion set; see METHODS.md"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/unlabelled_positive.csv",
+      "sha256": "69e45c5e162dc0ee37489356cc6c5c759c35da9c47671b65dc00aebf6c51c088",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/data/training/unlabelled_positive.csv",
+      "bytes": 951843,
+      "role": "training input or exact-sequence exclusion set; see METHODS.md"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/veltri_positive.csv",
+      "sha256": "fdaaad5714ffe48537506c30eb0d5a5a94767182433f52dcee311b2a11c7ef71",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/data/training/veltri_positive.csv",
+      "bytes": 90911,
+      "role": "training input or exact-sequence exclusion set; see METHODS.md"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/Uniprot_0_25_train.csv",
+      "sha256": "1af551c81bb7252a88abf489083a226aba1d02b6049436171dffee672bd11c32",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/data/training/Uniprot_0_25_train.csv",
+      "bytes": 9140400,
+      "role": "training input or exact-sequence exclusion set; see METHODS.md"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/mic_data.csv",
+      "sha256": "58e042011b340419daa0492b32eee4bc2cdc381d26ebcba6e548b11ce0f33d6c",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/data/training/mic_data.csv",
+      "bytes": 210748,
+      "role": "training input or exact-sequence exclusion set; see METHODS.md"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/dbaasp/dbaasp_clean.fasta",
+      "sha256": "cee2b5fd9445ce51cee66d1f2add7d7bc225a1b0b483d2f8af0cdfdb7e04449d",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/data/training/dbaasp/dbaasp_clean.fasta",
+      "bytes": 101414,
+      "role": "training input or exact-sequence exclusion set; see METHODS.md"
+    }
+  ],
+  "historical_mic_snapshot": {
+    "repository": "zswitten/Antimicrobial-Peptides",
+    "revision": "a6819dcd671291af8013627a2d2fbc32858346bc",
+    "files": {
+      "data/grampa.csv": {
+        "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/a6819dcd671291af8013627a2d2fbc32858346bc/data/grampa.csv",
+        "sha256": "9e33122afb3bdd169e8bed620b1040bf1601d60cf25b6c8c8d9870bf37522b6f",
+        "bytes": 7830941
+      },
+      "README.md": {
+        "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/a6819dcd671291af8013627a2d2fbc32858346bc/README.md",
+        "sha256": "044d4b531c0fa318bb35376aed0ea9f20d0ba0696f6b4bb0461702498c26b188",
+        "bytes": 2192
+      }
+    },
+    "license_note": "No root LICENSE at this revision; upstream data terms require source-specific review."
+  }
+}

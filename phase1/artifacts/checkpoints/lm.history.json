@@ -1,0 +1,58 @@
+[
+  {
+    "stage": "amp_finetune",
+    "epoch": 1,
+    "train_batch_mean_nll": 2.821225187817429,
+    "validation_token_nll": 2.731192925911049,
+    "seconds": 5.0856029987335205
+  },
+  {
+    "stage": "amp_finetune",
+    "epoch": 2,
+    "train_batch_mean_nll": 2.7065608672555683,
+    "validation_token_nll": 2.6661885765823703,
+    "seconds": 4.822026014328003
+  },
+  {
+    "stage": "amp_finetune",
+    "epoch": 3,
+    "train_batch_mean_nll": 2.655006994525773,
+    "validation_token_nll": 2.6194364581374776,
+    "seconds": 4.960092782974243
+  },
+  {
+    "stage": "amp_finetune",
+    "epoch": 4,
+    "train_batch_mean_nll": 2.614875903463619,
+    "validation_token_nll": 2.580265732364454,
+    "seconds": 4.999185800552368
+  },
+  {
+    "stage": "amp_finetune",
+    "epoch": 5,
+    "train_batch_mean_nll": 2.5806151646394975,
+    "validation_token_nll": 2.54545577278904,
+    "seconds": 4.984512090682983
+  },
+  {
+    "stage": "amp_finetune",
+    "epoch": 6,
+    "train_batch_mean_nll": 2.5514541167844467,
+    "validation_token_nll": 2.5180471500880284,
+    "seconds": 4.9621593952178955
+  },
+  {
+    "stage": "amp_finetune",
+    "epoch": 7,
+    "train_batch_mean_nll": 2.5267104143155446,
+    "validation_token_nll": 2.493921602849805,
+    "seconds": 4.841353893280029
+  },
+  {
+    "stage": "amp_finetune",
+    "epoch": 8,
+    "train_batch_mean_nll": 2.50539473392128,
+    "validation_token_nll": 2.4732009977416074,
+    "seconds": 5.018793821334839
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "stage": "gflownet_supervised_warmup",
+    "epoch": 1,
+    "train_batch_mean_nll": 2.8082602636014657,
+    "validation_token_nll": 2.7240451507589225,
+    "seconds": 3.2590534687042236
+  },
+  {
+    "stage": "gflownet_supervised_warmup",
+    "epoch": 2,
+    "train_batch_mean_nll": 2.6959119356915835,
+    "validation_token_nll": 2.6694481093173117,
+    "seconds": 19.882488250732422
+  },
+  {
+    "stage": "gflownet_supervised_warmup",
+    "epoch": 3,
+    "train_batch_mean_nll": 2.651353929458712,
+    "validation_token_nll": 2.6303379296180602,
+    "seconds": 17.26836371421814
+  }
+]

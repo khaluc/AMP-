@@ -1,0 +1,32 @@
+{
+  "base": "nferruz/ProtGPT2",
+  "positive_train": 15117,
+  "negative_train": 15117,
+  "positive_validation": 1642,
+  "negative_validation": 1642,
+  "control_prefixes": {
+    "AMP": [
+      0,
+      3349,
+      199
+    ],
+    "NONAMP": [
+      0,
+      46,
+      47,
+      2334,
+      48,
+      199
+    ]
+  },
+  "max_encoded_tokens": 26,
+  "negative_source": "starter-kits\\hydramp\\data\\training\\Uniprot_0_25_train.csv",
+  "negative_source_sha256": "1af551c81bb7252a88abf489083a226aba1d02b6049436171dffee672bd11c32",
+  "positive_source_report_sha256": "ee9bbd16ae6b3b20d103b9241443c353d88181efb0a4419199fa29cfcda8e885",
+  "limitations": [
+    "Negatives are assumed non-AMP UniProt sequences, not measured inactive controls",
+    "Negatives are mostly <=25 residues, causing possible length confounding",
+    "Exact sequence split, not homology/lab independent",
+    "Unknown overlap with historical ProtGPT2 UniRef50 pretraining; no calibration guarantee"
+  ]
+}

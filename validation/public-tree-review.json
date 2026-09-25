@@ -1,0 +1,41 @@
+{
+  "candidate_file_count": 327,
+  "total_bytes": 197753470,
+  "findings": [],
+  "largest_files": [
+    {
+      "path": "protein_lm/artifacts/adapter/adapter_model.safetensors",
+      "bytes": 32468368
+    },
+    {
+      "path": "models/torch/hub/checkpoints/esm2_t6_8M_UR50D.pt",
+      "bytes": 30099493
+    },
+    {
+      "path": "phase2/artifacts/mic_regressor.joblib",
+      "bytes": 11658097
+    },
+    {
+      "path": "phase2/artifacts/ranked_library.csv",
+      "bytes": 11539154
+    },
+    {
+      "path": "phase1/artifacts/data/uniprot_train.fasta",
+      "bytes": 6844256
+    },
+    {
+      "path": "data/reference/antibacterial.fasta",
+      "bytes": 4397194
+    },
+    {
+      "path": "protein_lm/artifacts/adapter/tokenizer.json",
+      "bytes": 3272244
+    },
+    {
+      "path": "phase2/artifacts/dataset_features.npy",
+      "bytes": 2983328
+    }
+  ],
+  "frozen_library_sha256": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
+  "frozen_top_sha256": "c38400c4d492ba0115a94183c28b9101c911f77ab8928ccbb182e0da1a9cd729"
+}

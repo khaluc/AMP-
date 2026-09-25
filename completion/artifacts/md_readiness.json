@@ -1,0 +1,130 @@
+{
+  "status": "missing_required_inputs",
+  "simulation_executed": false,
+  "gromacs_on_windows_path": null,
+  "wsl_inventory": [
+    "docker-desktop"
+  ],
+  "representatives": [
+    {
+      "id": "seq_042395",
+      "cluster": 2,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_015456",
+      "cluster": 21,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_047515",
+      "cluster": 23,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_033145",
+      "cluster": 41,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_021116",
+      "cluster": 42,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_044077",
+      "cluster": 55,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_013146",
+      "cluster": 56,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_000777",
+      "cluster": 65,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_029571",
+      "cluster": 81,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_016011",
+      "cluster": 89,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_032392",
+      "cluster": 93,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    },
+    {
+      "id": "seq_015353",
+      "cluster": 94,
+      "structure": null,
+      "topology": null,
+      "force_field": null,
+      "membrane_system": null,
+      "protocol": null,
+      "mechanism": "unassigned"
+    }
+  ]
+}

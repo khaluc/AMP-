@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/khaluc/AMP-",
+  "public": true,
+  "anonymous_repository_metadata_access": true,
+  "organizers": [
+    {
+      "login": "RasmusML",
+      "url": "https://github.com/RasmusML",
+      "read_access": "Public repository; no invitation or write grant required"
+    },
+    {
+      "login": "szymczakpau",
+      "url": "https://github.com/szymczakpau",
+      "read_access": "Public repository; no invitation or write grant required"
+    }
+  ],
+  "write_permission_granted": false
+}

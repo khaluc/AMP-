@@ -1,0 +1,6 @@
+seqme: library evaluated (50000 sequences)
+seqme: top100 evaluated (100 sequences)
+seqme: diffusion_ddim100 evaluated (16667 sequences)
+seqme: gflownet_multiobjective evaluated (16666 sequences)
+seqme: protgpt2_lora evaluated (16667 sequences)
+Upstream local sequence validator: passed

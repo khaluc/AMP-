@@ -1,0 +1,6 @@
+.venv/
+.eval-deps/
+generate/
+generate-replay-*/
+__pycache__/
+.pytest_cache/

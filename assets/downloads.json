@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "models/protgpt2/pytorch_model.bin",
+      "url": "https://huggingface.co/nferruz/ProtGPT2/resolve/ff981fc96771d6f6d3b6453f94772d3cb6c7b90b/pytorch_model.bin",
+      "bytes": 3134053001,
+      "sha256": "95ee34898a635ad046aa3c53a08f50ca169ff67443db50c0ba328320d8ed1f04",
+      "reason": "Pinned upstream base model; trained local adapter is included in this repository."
+    },
+    {
+      "path": "phase2/artifacts/source/provenance_code/src/embedding_model.py",
+      "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/a6819dcd671291af8013627a2d2fbc32858346bc/src/embedding_model.py",
+      "bytes": 9759,
+      "sha256": "7509789635b9cf752854f8c33c0323dad9561dcd21846a2a9241a3863572275e",
+      "reason": "Upstream code has no established license; fetched for original provenance verification, not redistributed."
+    },
+    {
+      "path": "phase2/artifacts/source/provenance_code/src/load_data.py",
+      "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/a6819dcd671291af8013627a2d2fbc32858346bc/src/load_data.py",
+      "bytes": 7808,
+      "sha256": "d8ff3e3a7c21edb3de1e2a72694e5fb8aad5ceef20dfb0d671913369883289dc",
+      "reason": "Upstream code has no established license; fetched for original provenance verification, not redistributed."
+    },
+    {
+      "path": "phase2/artifacts/source/provenance_code/src/make_dataset.py",
+      "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/a6819dcd671291af8013627a2d2fbc32858346bc/src/make_dataset.py",
+      "bytes": 2113,
+      "sha256": "c756ed6de71eae4d8b3edfdf442542ee8a700225aa86736a513f8a7f50f9bfbe",
+      "reason": "Upstream code has no established license; fetched for original provenance verification, not redistributed."
+    },
+    {
+      "path": "starter-kits/ampdiffusion/checkpoint/model.pt",
+      "url": "https://media.githubusercontent.com/media/szczurek-lab/ampdiffusion-starter-kit/1a862af9078e6b55c87d1fa576f3da81851ba94b/checkpoint/model.pt",
+      "bytes": 132526179,
+      "sha256": "6a3f347df7c02ff6008ac3d2d4826daeadf7418cb6862a6599b4f710e1d7f8aa",
+      "reason": "Pinned upstream model larger than the GitHub regular-file limit."
+    }
+  ]
+}

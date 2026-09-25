@@ -1,0 +1,10 @@
+{
+  "status": "computational_reconstruction_verified",
+  "mode": "checkpoints",
+  "seed": 42,
+  "library_sha256": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
+  "top_sha256": "c38400c4d492ba0115a94183c28b9101c911f77ab8928ccbb182e0da1a9cd729",
+  "model_replay": true,
+  "cross_hardware_replay": false,
+  "scientific_targets_all_met": false
+}

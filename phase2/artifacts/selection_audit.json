@@ -1,0 +1,34 @@
+{
+  "library_sha256": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
+  "model_sha256": "d5bf7ddc73174f3c99f32e5f737287942eec83c0a22e4147f0c603bc4822e503",
+  "library_count": 50000,
+  "reference_valid_count": 46881,
+  "eligible_at_16uM": 167,
+  "top100_status": "exploratory_candidates_written",
+  "sensitivity_counts_not_retuned": {
+    "8": 0,
+    "16": 167,
+    "32": 3384,
+    "64": 14522
+  },
+  "by_generator": {
+    "diffusion_ddim100": {
+      "count": 16667,
+      "median_pred_log10": 0.8967163774711548,
+      "median_similarity": 0.5853658536585367
+    },
+    "gflownet_multiobjective": {
+      "count": 16666,
+      "median_pred_log10": 1.2156630002622917,
+      "median_similarity": 0.5769230769230769
+    },
+    "protgpt2_lora": {
+      "count": 16667,
+      "median_pred_log10": 0.9388638937255528,
+      "median_similarity": 0.6896551724137931
+    }
+  },
+  "counterexample_probability_at_least_22_of_25_if_independent_p90": 0.7635913575531725,
+  "claim": "Exploratory historical-endpoint bounds only. Not calibrated for adaptively generated, selected candidates. No 22/25 guarantee.",
+  "peak_reserved_mib": 568.0
+}

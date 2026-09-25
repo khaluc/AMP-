@@ -1,0 +1,31 @@
+{
+  "review_date": "2026-09-26",
+  "method": "Canonical pages reviewed with web access; software license texts also retrieved directly.",
+  "sources": [
+    {
+      "url": "https://dbaasp.org/terms-and-conditions",
+      "finding": "Current terms permit redistribution with attribution."
+    },
+    {
+      "url": "https://www.dbaasp.org/docs/DBAASP_Terms_And_Conditions.pdf",
+      "finding": "Older PDF has conflicting distribution statements; discrepancy disclosed."
+    },
+    {
+      "url": "https://aps.unmc.edu/faq",
+      "finding": "Use of downloads with source acknowledgement described; not relabeled as MIT."
+    },
+    {
+      "url": "https://github.com/zswitten/Antimicrobial-Peptides/tree/a6819dcd671291af8013627a2d2fbc32858346bc",
+      "finding": "No root license established; raw mixed-source CSV and upstream scripts excluded from Git."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/facebookresearch/esm/main/LICENSE",
+      "included_file": "LICENSES/ESM-MIT.txt"
+    },
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "included_file": "LICENSES/Apache-2.0.txt"
+    }
+  ],
+  "limitation": "No blanket relicensing permission established for every historical source in mixed AMP datasets."
+}

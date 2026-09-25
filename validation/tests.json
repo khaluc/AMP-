@@ -1,0 +1,18 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "--locked",
+    "pytest",
+    "tests",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--junitxml",
+    "validation/entrypoint-tests.xml"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 3.23,
+  "fresh_project_python_environments": true,
+  "original_virtual_environments_reused": false
+}

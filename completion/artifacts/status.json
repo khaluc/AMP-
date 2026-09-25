@@ -1,0 +1,51 @@
+{
+  "all_scientific_phases_complete": false,
+  "library_count": 50000,
+  "top_count": 100,
+  "full_checkpoint_replay_same_machine": true,
+  "phase2_statistical_target_met": false,
+  "phase2_test_coverage": 0.770949720670391,
+  "phase3_portfolio_recomputed_from_features": true,
+  "tests": [
+    {
+      "report": "tests-completion.xml",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "report": "tests-lm.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "report": "tests-phase1.xml",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "report": "tests-phase2.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "report": "tests-phase3.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "unit_tests_passed": true,
+  "seqme_local_evaluated": true,
+  "official_aggregation_score": null,
+  "organizer_local_sequence_checks_passed": true,
+  "md_completed": false,
+  "console_launcher": "blocked_by_windows_application_control_in_this_session",
+  "module_entrypoint": "cached_repeated_invocations_byte_identical",
+  "cross_hardware_replay": false,
+  "experimental_validation": false,
+  "published_or_submitted": false
+}

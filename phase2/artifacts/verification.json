@@ -1,0 +1,14 @@
+{
+  "split_group_isolation": true,
+  "dataset_unique": true,
+  "finite_sample_quantile_recomputed": true,
+  "model_reload_predictions_match": true,
+  "library_structural_and_exact_overlap_checks": true,
+  "gflownet_same_seed_and_resume_prefix": true,
+  "gflownet_replay_sequences": 256,
+  "reference_similarity_scalar_crosscheck": 10,
+  "actual_test_coverage": 0.770949720670391,
+  "statistical_target_met": false,
+  "scope": "Reproducibility checks are prefixes on this hardware, not a complete 50000 replay.",
+  "top100_membership_uniqueness_thresholds_order_fasta_match": true
+}

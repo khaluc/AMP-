@@ -1,0 +1,18 @@
+[project]
+name = "amp-completion"
+version = "0.2.0"
+description = "Reproducible AMP ensemble inference and frozen candidate ranking"
+requires-python = ">=3.10,<3.11"
+license = "MIT"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+generate = "amp_completion.submission:main"
+
+[dependency-groups]
+dev = ["pytest==8.4.2"]
+
+[build-system]
+requires = ["uv_build==0.12.10"]
+build-backend = "uv_build"

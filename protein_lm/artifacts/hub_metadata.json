@@ -1,0 +1,100 @@
+﻿{
+    "_id":  "6225fa93c6e650de3a65dc7f",
+    "id":  "nferruz/ProtGPT2",
+    "private":  false,
+    "pipeline_tag":  "text-generation",
+    "library_name":  "transformers",
+    "tags":  [
+                 "transformers",
+                 "pytorch",
+                 "gpt2",
+                 "text-generation",
+                 "doi:10.57967/hf/5299",
+                 "license:apache-2.0",
+                 "text-generation-inference",
+                 "endpoints_compatible",
+                 "deploy:azure",
+                 "region:us"
+             ],
+    "downloads":  13981,
+    "likes":  118,
+    "modelId":  "nferruz/ProtGPT2",
+    "author":  "nferruz",
+    "sha":  "ff981fc96771d6f6d3b6453f94772d3cb6c7b90b",
+    "lastModified":  "2026-06-17T14:24:41.000Z",
+    "gated":  false,
+    "disabled":  false,
+    "widgetData":  [
+                       {
+                           "text":  "\u003c|endoftext|\u003e"
+                       }
+                   ],
+    "model-index":  null,
+    "config":  {
+                   "architectures":  [
+                                         "GPT2LMHeadModel"
+                                     ],
+                   "model_type":  "gpt2"
+               },
+    "cardData":  {
+                     "license":  "apache-2.0",
+                     "pipeline_tag":  "text-generation",
+                     "widget":  [
+                                    {
+                                        "text":  "\u003c|endoftext|\u003e"
+                                    }
+                                ],
+                     "inference":  {
+                                       "parameters":  {
+                                                          "top_k":  950,
+                                                          "repetition_penalty":  1.2
+                                                      }
+                                   }
+                 },
+    "transformersInfo":  {
+                             "auto_model":  "AutoModelForCausalLM",
+                             "pipeline_tag":  "text-generation",
+                             "processor":  "AutoTokenizer"
+                         },
+    "siblings":  [
+                     {
+                         "rfilename":  ".gitattributes"
+                     },
+                     {
+                         "rfilename":  "LICENSE"
+                     },
+                     {
+                         "rfilename":  "README.md"
+                     },
+                     {
+                         "rfilename":  "config.json"
+                     },
+                     {
+                         "rfilename":  "merges.txt"
+                     },
+                     {
+                         "rfilename":  "ppl-plddt.png"
+                     },
+                     {
+                         "rfilename":  "pytorch_model.bin"
+                     },
+                     {
+                         "rfilename":  "special_tokens_map.json"
+                     },
+                     {
+                         "rfilename":  "tokenizer.json"
+                     },
+                     {
+                         "rfilename":  "vocab.json"
+                     }
+                 ],
+    "spaces":  [
+                   "Gradio-Blocks/protGPT2_gradioFold",
+                   "eduagarcia/multilingual-tokenizer-leaderboard",
+                   "fneurociencias/GeneForgeLang",
+                   "AdriaRibera/nferruz-ProtGPT2",
+                   "samwell/genBio"
+               ],
+    "createdAt":  "2022-03-07T12:29:07.000Z",
+    "usedStorage":  12535820041
+}

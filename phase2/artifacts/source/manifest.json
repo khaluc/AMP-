@@ -1,0 +1,17 @@
+{
+  "repository": "zswitten/Antimicrobial-Peptides",
+  "revision": "a6819dcd671291af8013627a2d2fbc32858346bc",
+  "files": {
+    "data/grampa.csv": {
+      "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/a6819dcd671291af8013627a2d2fbc32858346bc/data/grampa.csv",
+      "sha256": "9e33122afb3bdd169e8bed620b1040bf1601d60cf25b6c8c8d9870bf37522b6f",
+      "bytes": 7830941
+    },
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/zswitten/Antimicrobial-Peptides/a6819dcd671291af8013627a2d2fbc32858346bc/README.md",
+      "sha256": "044d4b531c0fa318bb35376aed0ea9f20d0ba0696f6b4bb0461702498c26b188",
+      "bytes": 2192
+    }
+  },
+  "license_note": "No root LICENSE at this revision; upstream data terms require source-specific review."
+}

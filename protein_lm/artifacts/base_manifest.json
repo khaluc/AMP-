@@ -1,0 +1,54 @@
+{
+  "repo": "nferruz/ProtGPT2",
+  "revision": "ff981fc96771d6f6d3b6453f94772d3cb6c7b90b",
+  "files": [
+    {
+      "file": "LICENSE",
+      "bytes": 1080,
+      "sha256": "904d186e6c903fea12136e9b77da24c849e345d997da8a9ba0236c58e92a075c",
+      "hub_lfs_sha256": null
+    },
+    {
+      "file": "README.md",
+      "bytes": 8728,
+      "sha256": "4736d29bcef01a7711d39310c9b1a400c185fa1243bc5b19acdc6764890c9579",
+      "hub_lfs_sha256": null
+    },
+    {
+      "file": "config.json",
+      "bytes": 850,
+      "sha256": "b1eb50b2e360c8c9e433f234eeec53e809c99df254271ace5454b89244818195",
+      "hub_lfs_sha256": null
+    },
+    {
+      "file": "merges.txt",
+      "bytes": 313855,
+      "sha256": "b8d3b38f3e97efa2483bedf198cdb757b988ed17fb080f3cba94869f189eddf6",
+      "hub_lfs_sha256": null
+    },
+    {
+      "file": "pytorch_model.bin",
+      "bytes": 3134053001,
+      "sha256": "95ee34898a635ad046aa3c53a08f50ca169ff67443db50c0ba328320d8ed1f04",
+      "hub_lfs_sha256": "95ee34898a635ad046aa3c53a08f50ca169ff67443db50c0ba328320d8ed1f04"
+    },
+    {
+      "file": "special_tokens_map.json",
+      "bytes": 357,
+      "sha256": "a00e1f660c842693e7f667898759c24eb538c2dbb09b91c22dbde1b45d4cdee8",
+      "hub_lfs_sha256": null
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 1069833,
+      "sha256": "3e550dd50b13bc05ebbb681b8caa6d3fd9f04879e1f9c5bf3087c3f8517fad3e",
+      "hub_lfs_sha256": null
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 655440,
+      "sha256": "e89bc0dccbaf4ffbf62771d04e72aa7217c2d7c16bc8e5a8c520597880de3c20",
+      "hub_lfs_sha256": null
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "architecture": "128-wide 2-layer length-conditioned causal Transformer",
+  "parameters": 414996,
+  "seed": 42,
+  "pretraining": "local UniProt peptides; not published AMP-GPT",
+  "data_report_sha256": "ee9bbd16ae6b3b20d103b9241443c353d88181efb0a4419199fa29cfcda8e885",
+  "checkpoint_sha256": "56d93fa20f52a706b6bfe468ebd38621dabf6a18d2ac7fae694917c00f09f073"
+}

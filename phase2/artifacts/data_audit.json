@@ -1,0 +1,35 @@
+{
+  "raw_rows": 51345,
+  "unmodified_ecoli_dbaasp_rows": 3044,
+  "unique_sequences": 2260,
+  "similarity_components": 1173,
+  "largest_component": 42,
+  "split_counts": {
+    "train": 1310,
+    "calibration": 377,
+    "test": 358,
+    "validation": 215
+  },
+  "diffusion_training_exact_overlap_by_split": {
+    "calibration": 368,
+    "test": 325,
+    "train": 1276,
+    "validation": 214
+  },
+  "local_generator_data_exact_overlap_by_split": {
+    "calibration": 0,
+    "test": 0,
+    "train": 0,
+    "validation": 0
+  },
+  "endpoint": "Median log10(MIC/uM) per sequence across available E. coli assays/strains, DBAASP subset of 2018 GRAMPA snapshot",
+  "label_transform": "Already log10 in source; verified src/load_data.py convert_result_to_rows. No second log transform.",
+  "limitations": [
+    "Not strain/lab-specific; median endpoint is not an individual assay MIC.",
+    "Original censoring/assay protocol metadata unavailable; no recovery or imputation of censored values.",
+    "Homology-group splits are not IID sequence samples; report empirical coverage, not an unconditional exact guarantee.",
+    "Generator pretraining overlap and selection shift prevent top-100 hit-rate guarantees."
+  ],
+  "source_sha256": "9e33122afb3bdd169e8bed620b1040bf1601d60cf25b6c8c8d9870bf37522b6f",
+  "dataset_sha256": "bb98b92bf1d9b981076cd55de6dc9839964326d05677158295a38f7c73282aac"
+}

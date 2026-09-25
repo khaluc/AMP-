@@ -1,0 +1,17 @@
+{
+  "new_model_exact_split_checks_passed": true,
+  "counts": {
+    "amp_train": 15117,
+    "amp_validation": 1642,
+    "uniprot_train": 162189,
+    "uniprot_validation": 17905,
+    "reserved_mic": 6293
+  },
+  "published_diffusion_train_overlap_with_reserved_mic": 4126,
+  "uniprot_pretrain_overlap_with_amp_train": 18,
+  "limitations": [
+    "Exact overlap only; no homologous-family separation",
+    "Historical checkpoint overlap prevents interpreting all reserved records as unseen by the ensemble",
+    "Assay metadata, censoring, calibration/test separation and selection effects remain Phase 2 work"
+  ]
+}

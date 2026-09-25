@@ -1,0 +1,20 @@
+{
+  "diffusion_ddim100": {
+    "sample_n": 500,
+    "mean_pairwise_indel_distance": 0.6715554663925002,
+    "mean_length": 25.519589608207834,
+    "novelty_pass_fraction": 0.9724005519889602
+  },
+  "gflownet_multiobjective": {
+    "sample_n": 500,
+    "mean_pairwise_indel_distance": 0.7370803130917508,
+    "mean_length": 22.328453138125525,
+    "novelty_pass_fraction": 0.9876995079803192
+  },
+  "protgpt2_lora": {
+    "sample_n": 500,
+    "mean_pairwise_indel_distance": 0.7178959419765604,
+    "mean_length": 16.70612587748245,
+    "novelty_pass_fraction": 0.8527629447411051
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "stage": "uniprot_pretrain",
+    "epoch": 1,
+    "train_batch_mean_nll": 2.8327167659077532,
+    "validation_token_nll": 2.8081655497974527,
+    "seconds": 62.89603137969971
+  }
+]

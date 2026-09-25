@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "seed": 3042,
+    "batch_size": 128,
+    "top_k": 100,
+    "top_p": 0.95,
+    "temperature": 1.0,
+    "adapter_sha256": "35e20b48004a889e8206ef8056b447a71ee6fe9a09b799d61d56b8535459cdce",
+    "base_manifest_sha256": "fd0e3db9ae6492cf694fe64c9a8daaa88bddcf7a40217b1f79a825b491ae161e",
+    "code_sha256": "635b07713c4a78096664961665ddfe8c957e99407335cb8d72376a7c1d40731c",
+    "core_sha256": "b4916429e81011d6f764360ff760e8fe2403253525eb69e42477647cbadcf3f2",
+    "reference_sha256": "1e751f0710398f9ffe1ac784d09bb27da810f67031d1844ee64cef148b6c8e95",
+    "train_sha256": "d4fddef819f9f260b79d9c8fc2bef2ed804cac4e4942becfa566e98ad8febc67",
+    "validation_sha256": "506b27dd244a5ca371a619bac01bfce14de336cd23fb25f0073839dd1a9572e2"
+  },
+  "accepted": 17536,
+  "requested": 17500,
+  "attempts": 17920,
+  "next_round": 140,
+  "sha256": "729ffa7f53c3575436acd96558a823e9e450125acedd5264296c510fa7a71a23",
+  "elapsed_this_run_seconds": 293.1892249584198,
+  "peak_reserved_mib": 3308.0
+}

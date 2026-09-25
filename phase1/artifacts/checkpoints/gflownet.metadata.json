@@ -1,0 +1,19 @@
+{
+  "architecture": "128-wide GRU, append-only length-conditioned trajectory balance",
+  "seed": 42,
+  "steps": 1000,
+  "reward": "exp(LM log probability - empirical property penalty - 8*exact_known)",
+  "property_mean": [
+    0.17150884866714478,
+    0.41187959909439087,
+    0.10529718548059464
+  ],
+  "property_std": [
+    0.18892425298690796,
+    0.14837296307086945,
+    0.11001604050397873
+  ],
+  "teacher_sha256": "56d93fa20f52a706b6bfe468ebd38621dabf6a18d2ac7fae694917c00f09f073",
+  "checkpoint_sha256": "187fe7fcf03b0c5f6f2473dca131d8f6c5b97748eac75849e47fd3c546161ddc",
+  "limitations": "Approximate reward sampling; no MIC, MoA, coverage or superiority claim"
+}

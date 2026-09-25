@@ -1,0 +1,36 @@
+{
+  "amp_train": 15117,
+  "amp_validation": 1642,
+  "uniprot_train": 162189,
+  "uniprot_validation": 17905,
+  "reserved_mic_unique": 6293,
+  "split": "SHA256 sequence split, 90/10; NOT a homology-independent test",
+  "reservation": "Exact MIC sequence exclusion for newly trained models only; no calibration guarantee",
+  "published_diffusion_training_overlap": "Not removed from pre-existing checkpoint; audit before Phase 2",
+  "sources": [
+    {
+      "path": "starter-kits/ampdiffusion/data/training/training.fasta",
+      "sha256": "7bb01ab9a6f48683f20f63e7f7cf431f68019d60649770b24971c863792391bf"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/unlabelled_positive.csv",
+      "sha256": "69e45c5e162dc0ee37489356cc6c5c759c35da9c47671b65dc00aebf6c51c088"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/veltri_positive.csv",
+      "sha256": "fdaaad5714ffe48537506c30eb0d5a5a94767182433f52dcee311b2a11c7ef71"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/Uniprot_0_25_train.csv",
+      "sha256": "1af551c81bb7252a88abf489083a226aba1d02b6049436171dffee672bd11c32"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/mic_data.csv",
+      "sha256": "58e042011b340419daa0492b32eee4bc2cdc381d26ebcba6e548b11ce0f33d6c"
+    },
+    {
+      "path": "starter-kits/hydramp/data/training/dbaasp/dbaasp_clean.fasta",
+      "sha256": "cee2b5fd9445ce51cee66d1f2add7d7bc225a1b0b483d2f8af0cdfdb7e04449d"
+    }
+  ]
+}

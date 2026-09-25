@@ -1,0 +1,602 @@
+[
+  {
+    "step": 1,
+    "candidate_index": 2,
+    "marginal_gain": 0.11168397102927437,
+    "objective": 0.11168397102927444
+  },
+  {
+    "step": 2,
+    "candidate_index": 53,
+    "marginal_gain": 0.04462591920070846,
+    "objective": 0.15630989022998293
+  },
+  {
+    "step": 3,
+    "candidate_index": 20,
+    "marginal_gain": 0.03223997394181339,
+    "objective": 0.1885498641717963
+  },
+  {
+    "step": 4,
+    "candidate_index": 15,
+    "marginal_gain": 0.012454743272235206,
+    "objective": 0.20100460744403154
+  },
+  {
+    "step": 5,
+    "candidate_index": 55,
+    "marginal_gain": 0.010181753435723521,
+    "objective": 0.21118636087975504
+  },
+  {
+    "step": 6,
+    "candidate_index": 164,
+    "marginal_gain": 0.007443736828825655,
+    "objective": 0.21863009770858072
+  },
+  {
+    "step": 7,
+    "candidate_index": 6,
+    "marginal_gain": 0.004243290040987243,
+    "objective": 0.2228733877495679
+  },
+  {
+    "step": 8,
+    "candidate_index": 62,
+    "marginal_gain": 0.0035340359884968127,
+    "objective": 0.22640742373806474
+  },
+  {
+    "step": 9,
+    "candidate_index": 146,
+    "marginal_gain": 0.0034400618505448727,
+    "objective": 0.22984748558860965
+  },
+  {
+    "step": 10,
+    "candidate_index": 7,
+    "marginal_gain": 0.0034380842261812605,
+    "objective": 0.23328556981479087
+  },
+  {
+    "step": 11,
+    "candidate_index": 0,
+    "marginal_gain": 0.0033112235864098515,
+    "objective": 0.23659679340120074
+  },
+  {
+    "step": 12,
+    "candidate_index": 133,
+    "marginal_gain": 0.0031711013015623436,
+    "objective": 0.23976789470276308
+  },
+  {
+    "step": 13,
+    "candidate_index": 14,
+    "marginal_gain": 0.0025963412106699297,
+    "objective": 0.242364235913433
+  },
+  {
+    "step": 14,
+    "candidate_index": 153,
+    "marginal_gain": 0.002571792475410931,
+    "objective": 0.2449360283888439
+  },
+  {
+    "step": 15,
+    "candidate_index": 166,
+    "marginal_gain": 0.0022487168331326067,
+    "objective": 0.24718474522197653
+  },
+  {
+    "step": 16,
+    "candidate_index": 21,
+    "marginal_gain": 0.002198333287210824,
+    "objective": 0.24938307850918734
+  },
+  {
+    "step": 17,
+    "candidate_index": 12,
+    "marginal_gain": 0.002179348724768089,
+    "objective": 0.25156242723395544
+  },
+  {
+    "step": 18,
+    "candidate_index": 70,
+    "marginal_gain": 0.002041812898743161,
+    "objective": 0.25360424013269856
+  },
+  {
+    "step": 19,
+    "candidate_index": 77,
+    "marginal_gain": 0.002030218763913601,
+    "objective": 0.25563445889661224
+  },
+  {
+    "step": 20,
+    "candidate_index": 109,
+    "marginal_gain": 0.0019969849553337945,
+    "objective": 0.257631443851946
+  },
+  {
+    "step": 21,
+    "candidate_index": 130,
+    "marginal_gain": 0.001940975534105453,
+    "objective": 0.25957241938605147
+  },
+  {
+    "step": 22,
+    "candidate_index": 72,
+    "marginal_gain": 0.001890873215274064,
+    "objective": 0.2614632926013255
+  },
+  {
+    "step": 23,
+    "candidate_index": 88,
+    "marginal_gain": 0.0018822666979139892,
+    "objective": 0.26334555929923953
+  },
+  {
+    "step": 24,
+    "candidate_index": 50,
+    "marginal_gain": 0.001780784145134992,
+    "objective": 0.2651263434443745
+  },
+  {
+    "step": 25,
+    "candidate_index": 137,
+    "marginal_gain": 0.001761265228961619,
+    "objective": 0.2668876086733361
+  },
+  {
+    "step": 26,
+    "candidate_index": 66,
+    "marginal_gain": 0.0017460234719598633,
+    "objective": 0.26863363214529595
+  },
+  {
+    "step": 27,
+    "candidate_index": 82,
+    "marginal_gain": 0.0017049851309165992,
+    "objective": 0.27033861727621256
+  },
+  {
+    "step": 28,
+    "candidate_index": 59,
+    "marginal_gain": 0.001693325270396754,
+    "objective": 0.27203194254660934
+  },
+  {
+    "step": 29,
+    "candidate_index": 41,
+    "marginal_gain": 0.0016908037072545599,
+    "objective": 0.2737227462538639
+  },
+  {
+    "step": 30,
+    "candidate_index": 58,
+    "marginal_gain": 0.0016242379054397565,
+    "objective": 0.27534698415930364
+  },
+  {
+    "step": 31,
+    "candidate_index": 129,
+    "marginal_gain": 0.0016195833920443347,
+    "objective": 0.27696656755134796
+  },
+  {
+    "step": 32,
+    "candidate_index": 165,
+    "marginal_gain": 0.0015930463824570878,
+    "objective": 0.2785596139338051
+  },
+  {
+    "step": 33,
+    "candidate_index": 125,
+    "marginal_gain": 0.0015902081636374782,
+    "objective": 0.28014982209744255
+  },
+  {
+    "step": 34,
+    "candidate_index": 39,
+    "marginal_gain": 0.0015873151287370258,
+    "objective": 0.28173713722617955
+  },
+  {
+    "step": 35,
+    "candidate_index": 160,
+    "marginal_gain": 0.0015668362979496362,
+    "objective": 0.2833039735241292
+  },
+  {
+    "step": 36,
+    "candidate_index": 79,
+    "marginal_gain": 0.0015135329367960031,
+    "objective": 0.28481750646092524
+  },
+  {
+    "step": 37,
+    "candidate_index": 49,
+    "marginal_gain": 0.001512802384343774,
+    "objective": 0.286330308845269
+  },
+  {
+    "step": 38,
+    "candidate_index": 78,
+    "marginal_gain": 0.001504459842878454,
+    "objective": 0.28783476868814745
+  },
+  {
+    "step": 39,
+    "candidate_index": 139,
+    "marginal_gain": 0.0015044355385536786,
+    "objective": 0.2893392042267011
+  },
+  {
+    "step": 40,
+    "candidate_index": 43,
+    "marginal_gain": 0.0015008905700468372,
+    "objective": 0.29084009479674794
+  },
+  {
+    "step": 41,
+    "candidate_index": 48,
+    "marginal_gain": 0.0014882701948499622,
+    "objective": 0.2923283649915979
+  },
+  {
+    "step": 42,
+    "candidate_index": 40,
+    "marginal_gain": 0.0014843619193620561,
+    "objective": 0.29381272691096
+  },
+  {
+    "step": 43,
+    "candidate_index": 63,
+    "marginal_gain": 0.001483263595932782,
+    "objective": 0.29529599050689276
+  },
+  {
+    "step": 44,
+    "candidate_index": 73,
+    "marginal_gain": 0.0014727098284707282,
+    "objective": 0.2967687003353635
+  },
+  {
+    "step": 45,
+    "candidate_index": 3,
+    "marginal_gain": 0.0014712263168897136,
+    "objective": 0.2982399266522532
+  },
+  {
+    "step": 46,
+    "candidate_index": 107,
+    "marginal_gain": 0.0014596767002876348,
+    "objective": 0.2996996033525408
+  },
+  {
+    "step": 47,
+    "candidate_index": 36,
+    "marginal_gain": 0.001457486302917898,
+    "objective": 0.30115708965545873
+  },
+  {
+    "step": 48,
+    "candidate_index": 42,
+    "marginal_gain": 0.0014414830686351012,
+    "objective": 0.30259857272409385
+  },
+  {
+    "step": 49,
+    "candidate_index": 65,
+    "marginal_gain": 0.0014293998764018747,
+    "objective": 0.3040279726004957
+  },
+  {
+    "step": 50,
+    "candidate_index": 84,
+    "marginal_gain": 0.0014282956827707575,
+    "objective": 0.30545626828326644
+  },
+  {
+    "step": 51,
+    "candidate_index": 26,
+    "marginal_gain": 0.0014267893391617156,
+    "objective": 0.3068830576224282
+  },
+  {
+    "step": 52,
+    "candidate_index": 24,
+    "marginal_gain": 0.0014256213793635607,
+    "objective": 0.3083086790017917
+  },
+  {
+    "step": 53,
+    "candidate_index": 22,
+    "marginal_gain": 0.0014051674727656943,
+    "objective": 0.30971384647455746
+  },
+  {
+    "step": 54,
+    "candidate_index": 113,
+    "marginal_gain": 0.001403573932603689,
+    "objective": 0.3111174204071611
+  },
+  {
+    "step": 55,
+    "candidate_index": 64,
+    "marginal_gain": 0.001398108020871549,
+    "objective": 0.31251552842803265
+  },
+  {
+    "step": 56,
+    "candidate_index": 111,
+    "marginal_gain": 0.0013902239020223489,
+    "objective": 0.313905752330055
+  },
+  {
+    "step": 57,
+    "candidate_index": 135,
+    "marginal_gain": 0.0013892461169712135,
+    "objective": 0.31529499844702624
+  },
+  {
+    "step": 58,
+    "candidate_index": 110,
+    "marginal_gain": 0.001387447393409452,
+    "objective": 0.3166824458404357
+  },
+  {
+    "step": 59,
+    "candidate_index": 162,
+    "marginal_gain": 0.0013840883460032218,
+    "objective": 0.31806653418643893
+  },
+  {
+    "step": 60,
+    "candidate_index": 104,
+    "marginal_gain": 0.0013753579487012144,
+    "objective": 0.3194418921351401
+  },
+  {
+    "step": 61,
+    "candidate_index": 136,
+    "marginal_gain": 0.0013728570550380593,
+    "objective": 0.32081474919017816
+  },
+  {
+    "step": 62,
+    "candidate_index": 120,
+    "marginal_gain": 0.001366878672956738,
+    "objective": 0.3221816278631349
+  },
+  {
+    "step": 63,
+    "candidate_index": 81,
+    "marginal_gain": 0.0013541069619886158,
+    "objective": 0.32353573482512354
+  },
+  {
+    "step": 64,
+    "candidate_index": 124,
+    "marginal_gain": 0.0013472750409686011,
+    "objective": 0.32488300986609214
+  },
+  {
+    "step": 65,
+    "candidate_index": 93,
+    "marginal_gain": 0.0013472402570755498,
+    "objective": 0.32623025012316764
+  },
+  {
+    "step": 66,
+    "candidate_index": 158,
+    "marginal_gain": 0.0013321364362824898,
+    "objective": 0.32756238655945014
+  },
+  {
+    "step": 67,
+    "candidate_index": 89,
+    "marginal_gain": 0.0013220590770075737,
+    "objective": 0.32888444563645775
+  },
+  {
+    "step": 68,
+    "candidate_index": 32,
+    "marginal_gain": 0.001317272913383323,
+    "objective": 0.33020171854984104
+  },
+  {
+    "step": 69,
+    "candidate_index": 69,
+    "marginal_gain": 0.0013113489247649826,
+    "objective": 0.331513067474606
+  },
+  {
+    "step": 70,
+    "candidate_index": 138,
+    "marginal_gain": 0.0013094757886221533,
+    "objective": 0.3328225432632282
+  },
+  {
+    "step": 71,
+    "candidate_index": 9,
+    "marginal_gain": 0.0013067256635249992,
+    "objective": 0.3341292689267532
+  },
+  {
+    "step": 72,
+    "candidate_index": 57,
+    "marginal_gain": 0.001305734709304812,
+    "objective": 0.33543500363605805
+  },
+  {
+    "step": 73,
+    "candidate_index": 121,
+    "marginal_gain": 0.0012988015358981724,
+    "objective": 0.3367338051719563
+  },
+  {
+    "step": 74,
+    "candidate_index": 127,
+    "marginal_gain": 0.0012934956053809038,
+    "objective": 0.33802730077733717
+  },
+  {
+    "step": 75,
+    "candidate_index": 28,
+    "marginal_gain": 0.0012909462222286824,
+    "objective": 0.3393182469995658
+  },
+  {
+    "step": 76,
+    "candidate_index": 114,
+    "marginal_gain": 0.0012892531720359974,
+    "objective": 0.3406075001716018
+  },
+  {
+    "step": 77,
+    "candidate_index": 45,
+    "marginal_gain": 0.0012843219617786313,
+    "objective": 0.34189182213338043
+  },
+  {
+    "step": 78,
+    "candidate_index": 108,
+    "marginal_gain": 0.0012750701835418398,
+    "objective": 0.34316689231692227
+  },
+  {
+    "step": 79,
+    "candidate_index": 92,
+    "marginal_gain": 0.0012729382957141913,
+    "objective": 0.3444398306126365
+  },
+  {
+    "step": 80,
+    "candidate_index": 80,
+    "marginal_gain": 0.001271972976020442,
+    "objective": 0.3457118035886569
+  },
+  {
+    "step": 81,
+    "candidate_index": 144,
+    "marginal_gain": 0.0012698078801466719,
+    "objective": 0.3469816114688036
+  },
+  {
+    "step": 82,
+    "candidate_index": 31,
+    "marginal_gain": 0.0012666442896978887,
+    "objective": 0.34824825575850143
+  },
+  {
+    "step": 83,
+    "candidate_index": 96,
+    "marginal_gain": 0.0012643418137808443,
+    "objective": 0.34951259757228237
+  },
+  {
+    "step": 84,
+    "candidate_index": 47,
+    "marginal_gain": 0.001262103286927832,
+    "objective": 0.3507747008592102
+  },
+  {
+    "step": 85,
+    "candidate_index": 83,
+    "marginal_gain": 0.0012594718627690251,
+    "objective": 0.35203417272197923
+  },
+  {
+    "step": 86,
+    "candidate_index": 122,
+    "marginal_gain": 0.0012569973691130823,
+    "objective": 0.3532911700910923
+  },
+  {
+    "step": 87,
+    "candidate_index": 117,
+    "marginal_gain": 0.001256788943284503,
+    "objective": 0.3545479590343768
+  },
+  {
+    "step": 88,
+    "candidate_index": 140,
+    "marginal_gain": 0.0012533256167584178,
+    "objective": 0.35580128465113525
+  },
+  {
+    "step": 89,
+    "candidate_index": 27,
+    "marginal_gain": 0.0012523783700671607,
+    "objective": 0.3570536630212024
+  },
+  {
+    "step": 90,
+    "candidate_index": 112,
+    "marginal_gain": 0.001241177333035816,
+    "objective": 0.3582948403542382
+  },
+  {
+    "step": 91,
+    "candidate_index": 52,
+    "marginal_gain": 0.0012397966648279206,
+    "objective": 0.35953463701906613
+  },
+  {
+    "step": 92,
+    "candidate_index": 131,
+    "marginal_gain": 0.0012387540475046865,
+    "objective": 0.3607733910665708
+  },
+  {
+    "step": 93,
+    "candidate_index": 106,
+    "marginal_gain": 0.0012342538112354794,
+    "objective": 0.36200764487780623
+  },
+  {
+    "step": 94,
+    "candidate_index": 119,
+    "marginal_gain": 0.0012313325680980603,
+    "objective": 0.36323897744590433
+  },
+  {
+    "step": 95,
+    "candidate_index": 38,
+    "marginal_gain": 0.0012276192063784028,
+    "objective": 0.36446659665228276
+  },
+  {
+    "step": 96,
+    "candidate_index": 103,
+    "marginal_gain": 0.001225996741164166,
+    "objective": 0.3656925933934469
+  },
+  {
+    "step": 97,
+    "candidate_index": 11,
+    "marginal_gain": 0.0012201532176313401,
+    "objective": 0.3669127466110782
+  },
+  {
+    "step": 98,
+    "candidate_index": 156,
+    "marginal_gain": 0.0012199235841547644,
+    "objective": 0.368132670195233
+  },
+  {
+    "step": 99,
+    "candidate_index": 155,
+    "marginal_gain": 0.0012137883981227712,
+    "objective": 0.36934645859335574
+  },
+  {
+    "step": 100,
+    "candidate_index": 71,
+    "marginal_gain": 0.0012131221017173312,
+    "objective": 0.37055958069507305
+  }
+]

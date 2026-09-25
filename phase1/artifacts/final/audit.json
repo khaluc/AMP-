@@ -1,0 +1,21 @@
+{
+  "count": 50000,
+  "unique": 50000,
+  "exact_known_overlap": 0,
+  "sources": {
+    "diffusion_ddim100": {
+      "selected": 16667,
+      "pool_sha256": "cf3b7c2d88ffaccaf20f48c6fd7b00d7b07158847cfd8a53c1de9004ae84068e"
+    },
+    "protgpt2_lora": {
+      "selected": 16667,
+      "pool_sha256": "729ffa7f53c3575436acd96558a823e9e450125acedd5264296c510fa7a71a23"
+    },
+    "gflownet_multiobjective": {
+      "selected": 16666,
+      "pool_sha256": "1267339880469585554c95c0274f2c0dace85592b5312477c15e31d8f7e762af"
+    }
+  },
+  "sha256": "36b147ebe114d5176305f1b9fa59ce8f2f8fef7799c493c377f6ebb17a191aa9",
+  "scope": "Three-family operational ensemble; no potency or exact GFlowNet convergence guarantee."
+}

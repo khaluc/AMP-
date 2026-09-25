@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-09-19T10:10:34.149299+00:00",
+  "repositories": [
+    {
+      "path": "competition-template",
+      "url": "https://github.com/szczurek-lab/amp-challenge-2027.git",
+      "commit": "5c8a5d8e2551c8cf572d3d3bfcfe7633b109d91e"
+    },
+    {
+      "path": "starter-kits/hydramp",
+      "url": "https://github.com/szczurek-lab/hydramp-starter-kit.git",
+      "commit": "7804df862872ccc6d09fe01c41bafbca194cfa31"
+    },
+    {
+      "path": "starter-kits/ampdiffusion",
+      "url": "https://github.com/szczurek-lab/ampdiffusion-starter-kit.git",
+      "commit": "1a862af9078e6b55c87d1fa576f3da81851ba94b"
+    },
+    {
+      "path": "tools/seqme",
+      "url": "https://github.com/szczurek-lab/seqme.git",
+      "commit": "6b8f3221dcbae9ca2bea7fed38fa01224f6d0f82"
+    },
+    {
+      "path": "tools/hydramp-source",
+      "url": "https://github.com/szczurek-lab/hydramp.git",
+      "commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279"
+    }
+  ]
+}

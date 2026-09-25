@@ -1,0 +1,7 @@
+,Count,Count,Uniqueness,Uniqueness,Novelty,Novelty,Length,Length
+,value,deviation,value,deviation,value,deviation,value,deviation
+library,50000.0,,1.0,,1.0,,21.51804,10.577789682083871
+top100,100.0,,1.0,,1.0,,24.69,7.5837919275254375
+diffusion_ddim100,16667.0,,1.0,,1.0,,25.519589608207834,9.461293300503733
+gflownet_multiobjective,16666.0,,1.0,,1.0,,22.328453138125525,11.809043186954382
+protgpt2_lora,16667.0,,1.0,,1.0,,16.70612587748245,8.177856609534066
